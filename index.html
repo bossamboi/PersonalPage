@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eric Sohng - Personal Page</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/bootstrap-utilities.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">Eric Sohng</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse position-relative" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active px-3" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-3" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="my-5">
+      <div class="container py-5">
+        <div class="row" id="landing-page">
+          <div class="col-md-7">
+            <img src="https://picsum.photos/600/400" alt="" class="img-fluid" />
+          </div>
+          <div class="col-md-5">
+            <h1 class="mt-5 display-3">Eric Sohng</h1>
+            <p class="mt-4">Maker, Builder, Engineer</p>
+            <button type="button" class="btn btn-primary mt-4">Learn more</button>
+          </div>
+        </div>
+        <div class="row my-5" id="about-page">
+          <div class="col-3">
+            <div class="bg-secondary text-white my-3 py-3 card text-center">
+              <div class="card-body">About</div>
+            </div>
+          </div>
+        </div>
+        <div class="row my-5">
+          <div class="col">
+            I'm a [future] software developer with a background in 3D modeling, construction
+            management, and design development. <br /><br />
+            I love building - whether it be webpages, furniture, or 3D printing. <br />
+            <br />
+            In my free time, I enjoy snowboarding, fishing, and climbing.
+          </div>
+          <div class="col">Download Button</div>
+        </div>
+        <div class="row my-5 p-5 bg-secondary">
+          <div class="col-6">
+            <div class="display-6">Contact</div>
+            <div class="my-4">
+              <div>email: ericsohng@gmail.com</div>
+              <div>phone: (323)829-3353</div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="display-6">Get in touch!</div>
+            <form class="my-4 me-5">
+              <div class="mb-3">
+                <label for="inputName" class="form-label">Name*</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputName"
+                  aria-describedby=""
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="inputEmail" class="form-label">Email address*</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="inputEmail"
+                  aria-describedby="emailHelp"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="inputSubject" class="form-label">Subject</label>
+                <input type="text" class="form-control" id="inputSubject" />
+              </div>
+              <div class="mb-3">
+                <label for="inputMessage" class="form-label">Message</label>
+                <textarea rows="5" type="text" class="form-control" id="inputMessage"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer mt-auto py-3 bg-dark">
+      <div class="container">
+        <span class="text-muted">&copy; 2022 Eric Sohng</span>
+      </div>
+    </footer>
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>

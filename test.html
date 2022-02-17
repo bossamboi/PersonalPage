@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Test</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <style>
+      [class*="col"] {
+        padding: 1rem;
+        background-color: #33b5e5;
+        border: 2px solid #fff;
+        color: #fff;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container border">
+      <div class="row">
+        <div class="col-lg-8 col-md-4">Col 1</div>
+        <div class="col-lg-4 col-md-8">Col 2</div>
+      </div>
+    </div>
+
+    <div class="container border my-5">
+      <div class="row justify-content-evenly" style="height: 250px">
+        <div class="col-3 align-self-start">One of three columns</div>
+        <div class="col-3 align-self-center">One of three columns</div>
+        <div class="col-3 align-self-end">One of three columns</div>
+      </div>
+
+      <div class="row align-items-end justify-content-center">
+        <div class="col-2">1 of 2</div>
+        <div class="col-2">2 of 2</div>
+      </div>
+    </div>
+
+    <div class="container my-5">
+      <div class="row g-3">
+        <div class="col-6">1</div>
+        <div class="col-6">2</div>
+        <div class="col-6">3</div>
+        <div class="col-6">4</div>
+      </div>
+    </div>
+
+    <div class="mt-5 border border-1 border-dark w-50 mx-auto p-5 pt-2">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos expedita illo esse
+        dolorem blanditiis molestias voluptate! Possimus tempore alias accusamus magnam fugiat
+        ipsum, quis facilis ut, molestias natus in impedit?
+      </p>
+      <p class="m-5">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut reprehenderit id deserunt?
+        Libero, in labore aut similique modi aperiam qui at reprehenderit amet culpa velit quos
+        iusto, illum nesciunt et.
+      </p>
+      <div class="d-none d-md-block mx-auto w-50 text-center bg-dark text-white">
+        Centered Element
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>
