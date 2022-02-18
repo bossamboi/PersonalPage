@@ -95,14 +95,14 @@
           </div>
           <div class="col-md-5">
             <div class="display-6">Get in touch!</div>
-            <form class="my-4 me-5">
+            <form class="my-4 me-5" action="https://formsubmit.co/7af6c17b0c34f23ad0dee1e48cdf3331" method="POST">
               <div class="mb-3">
                 <label for="inputName" class="form-label">Name*</label>
                 <input
                   type="text"
+                  name="name"
                   class="form-control"
                   id="inputName"
-                  aria-describedby=""
                   required
                 />
               </div>
@@ -112,19 +112,20 @@
                   type="email"
                   class="form-control"
                   id="inputEmail"
-                  aria-describedby="emailHelp"
+                  name="email"
                   required
                 />
               </div>
               <div class="mb-3">
                 <label for="inputSubject" class="form-label">Subject</label>
-                <input type="text" class="form-control" id="inputSubject" />
+                <input type="text" name="subject" class="form-control" id="inputSubject" />
               </div>
               <div class="mb-3">
                 <label for="inputMessage" class="form-label">Message*</label>
-                <textarea rows="5" type="text" class="form-control" id="inputMessage" required></textarea>
+                <textarea rows="5" type="text" name="message" class="form-control" id="inputMessage" required></textarea>
               </div>
               <button type="submit" class="btn btn-primary">Send</button>
+              <button type="reset" class="btn btn-secondary">Clear</button>
             </form>
           </div>
         </div>
