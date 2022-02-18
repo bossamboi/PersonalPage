@@ -7,6 +7,7 @@
     <title>Eric Sohng - Personal Page</title>
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/bootstrap-utilities.css" />
+    <script src="https://kit.fontawesome.com/3898ce8a4e.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
@@ -27,7 +28,7 @@
           <div class="collapse navbar-collapse position-relative" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active px-3" aria-current="page" href="#">Home</a>
+                <a class="nav-link px-3" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link px-3" href="#about-page">About</a>
@@ -56,87 +57,100 @@
         <div class="row pt-5" id="about-page">
           <div class="col-md-5">
             <div class=>
-              <div class="display-6">About</div>
-            </div>
-            <p class="mt-5">
-              I'm a software developer with a background in 3D modeling, construction management,
-              and design development. <br /><br />
-              I love building - whether it be webpages, furniture, or 3D printing. <br />
-              <br />
-              In my free time, I enjoy snowboarding, fishing, and climbing.
-            </p>
-
-            <div class="mt-4"> 
-              <a
-                type="button"
-                class="btn btn-secondary"
-                href="/files/Eric Sohng_Resume.pdf"
-                download
-                ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
-                    <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
-                    <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
-                  </svg> Download Resume</a
-              >
-            </div>
+            <div class="display-6">About</div>
           </div>
+          <p class="mt-5">
+            I'm a software developer with a background in 3D modeling, construction management, and
+            design development. <br /><br />
+            I love building - whether it be webpages, furniture, or 3D printing. <br />
+            <br />
+            In my free time, I enjoy snowboarding, fishing, and climbing.
+          </p>
 
-          <div class="col-md-7 mt-5">
-            <img src="https://picsum.photos/600/400" alt="" class="img-fluid" />
+          <div class="mt-4">
+            <a type="button" class="btn btn-secondary" href="/files/Eric Sohng_Resume.pdf" download
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-download"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"
+                />
+                <path
+                  d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"
+                />
+              </svg>
+              Download Resume</a
+            >
           </div>
         </div>
 
-        <div id="contact-page" class="row mt-5 mb-0 py-5 justify-content-md-center">
-          <div class="col-md-5">
-            <div class="display-6">Contact</div>
-            <div class="my-4">
-              <div>email: ericsohng@gmail.com</div>
-              <div>phone: (323)829-3353</div>
+        <div class="col-md-7 mt-sm-5 mt-md-0">
+          <img src="https://picsum.photos/600/400" alt="" class="img-fluid" />
+        </div>
+      </div>
+
+      <div id="contact-page" class="row mt-5 mb-0 py-5 justify-content-md-center">
+        <div class="col-md-5">
+          <div class="display-6">Contact</div>
+          <div class="my-4">
+            <div>email: ericsohng@gmail.com</div>
+            <div class="pb-2">phone: (323) 829-3353</div>
+            <a
+              class="btn btn-social-icon btn-linkedin p-0"
+              href="https://www.linkedin.com/in/eric-sohng/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><span class="fa-brands fa-linkedin fa-2x"></span
+            ></a>
+          </div>
+        </div>
+        <div class="col-md-5 mt-sm-3 mt-md-0">
+          <div class="display-6">Get in touch!</div>
+          <form
+            class="my-4 me-5"
+            action="https://formsubmit.co/7af6c17b0c34f23ad0dee1e48cdf3331"
+            method="POST"
+          >
+            <div class="mb-3">
+              <label for="inputName" class="form-label">Name*</label>
+              <input type="text" name="name" class="form-control" id="inputName" required />
             </div>
-          </div>
-          <div class="col-md-5">
-            <div class="display-6">Get in touch!</div>
-            <form class="my-4 me-5" action="https://formsubmit.co/7af6c17b0c34f23ad0dee1e48cdf3331" method="POST">
-              <div class="mb-3">
-                <label for="inputName" class="form-label">Name*</label>
-                <input
-                  type="text"
-                  name="name"
-                  class="form-control"
-                  id="inputName"
-                  required
-                />
-              </div>
-              <div class="mb-3">
-                <label for="inputEmail" class="form-label">Email address*</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="inputEmail"
-                  name="email"
-                  required
-                />
-              </div>
-              <div class="mb-3">
-                <label for="inputSubject" class="form-label">Subject</label>
-                <input type="text" name="subject" class="form-control" id="inputSubject" />
-              </div>
-              <div class="mb-3">
-                <label for="inputMessage" class="form-label">Message*</label>
-                <textarea rows="5" type="text" name="message" class="form-control" id="inputMessage" required></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Send</button>
-              <button type="reset" class="btn btn-secondary">Clear</button>
-            </form>
-          </div>
+            <div class="mb-3">
+              <label for="inputEmail" class="form-label">Email address*</label>
+              <input type="email" class="form-control" id="inputEmail" name="email" required />
+            </div>
+            <div class="mb-3">
+              <label for="inputSubject" class="form-label">Subject</label>
+              <input type="text" name="subject" class="form-control" id="inputSubject" />
+            </div>
+            <div class="mb-3">
+              <label for="inputMessage" class="form-label">Message*</label>
+              <textarea
+                rows="5"
+                type="text"
+                name="message"
+                class="form-control"
+                id="inputMessage"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+            <button type="reset" class="btn btn-secondary">Clear</button>
+          </form>
         </div>
       </div>
     </main>
-    
+
     <footer class="footer mt-0 py-2 bg-dark">
       <div class="container">
         <span class="text-muted">&copy; 2022 Eric Sohng</span>
       </div>
     </footer>
-    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.bundled.js"></script>
   </body>
 </html>
