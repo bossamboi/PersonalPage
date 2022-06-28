@@ -1,7 +1,33 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
 #logo {
-  height: 40px;
+  height: 50px;
 }
 
 #logo:hover {
   transform: rotate(-20deg);
+}
+
+/* #big-head {
+  height: 10rem;
+} */
+
+#head-container {
+  text-align: center;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 2rem;
+}
+
+footer {
+  color: rgb(150, 150, 150);
+  text-align: center;
 }
